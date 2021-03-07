@@ -1,0 +1,60 @@
+body {
+	background: url('../Images/mypic.jpg');
+
+	/*background: url('../images/cookie-monster.jpg');*/
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 1700px 800px;
+}
+#container
+{
+	background: black;
+	width: 440px;
+	height: 700px;
+	color: white;
+}
+#intro
+{
+	font-family: Bradley Hand, cursive;
+	font-style: bold;
+	font-size: 15px;
+
+}
+	
+#name{
+	font-size: 60px;
+	font-family: "chalkduster", fantasy;
+}
+h2
+{
+	background: #35c0f2;
+	color: black;
+	padding: 4px;
+	border-radius: 8px;
+
+}
+a{
+	color: #35c0f2;
+	text-decoration: none;
+}
+#about{
+	font-style: italic;
+	font-size: 15px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+#skill
+{
+	 display:inline-block;
+    padding: 4px;
+    width: 200px;
+    background: #35c0f2;
+    color: black;
+    border-radius: 8px;
+    font-style: bold;
+    font-family: Verdana, sans-serif;
+}
