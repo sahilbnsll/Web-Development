@@ -1,6 +1,7 @@
 
 
 body {
+	background: url('../images/cookie-monster.jpg');
 	/*background: url('../images/cookie-monster.jpg');*/
 	/* the follow is the code to have the image display as a full page */
 	background-position: center;
@@ -13,21 +14,23 @@ body {
 #container
 {
 	background: black;
-	width: 420px;
+	width: 440px;
+	height: 600px;
 	color: white;
-	padding: 20px;
+	padding: 15px;
 }
 h1{
-	font-size: 72px; 
+	font-size: 60px; 
 }
 h2{
-	background: #75c1f6;
+	background: #35C0F2;
 	color: black;
-	padding: 5px
+	padding: 6px;
+	border-radius: 10px;
 
 }
 a{
-	color: #75c1f6;
+	color: #35C0F2;
 	text-decoration: none;
 
 }
